@@ -1,0 +1,19 @@
+﻿  Utility.cpp
+d:\lewis cole - pacman_v1.1\pacman\utility.cpp(7): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+  Math_Func.cpp
+d:\lewis cole - pacman_v1.1\pacman\math_func.cpp(41): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+d:\lewis cole - pacman_v1.1\pacman\math_func.cpp(42): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  main.cpp
+  Level_Data.cpp
+d:\lewis cole - pacman_v1.1\pacman\level_data.cpp(71): warning C4018: '>': signed/unsigned mismatch
+d:\lewis cole - pacman_v1.1\pacman\level_data.cpp(113): warning C4018: '<': signed/unsigned mismatch
+  Game_Data.cpp
+  Drawer.cpp
+d:\lewis cole - pacman_v1.1\pacman\drawer.cpp(20): warning C4150: deletion of pointer to incomplete type 'SDL_Window'; no destructor called
+  d:\lewis cole - pacman_v1.1\libs\sdl2-2.0.5\include\sdl_video.h(90): note: see declaration of 'SDL_Window'
+d:\lewis cole - pacman_v1.1\pacman\drawer.cpp(21): warning C4150: deletion of pointer to incomplete type 'SDL_Renderer'; no destructor called
+  d:\lewis cole - pacman_v1.1\libs\sdl2-2.0.5\include\sdl_render.h(122): note: see declaration of 'SDL_Renderer'
+  Actors.cpp
+  Generating Code...
+  Pacman.vcxproj -> D:\Lewis Cole - PACMAN_V1.1\Debug\Pacman.exe
+  Pacman.vcxproj -> D:\Lewis Cole - PACMAN_V1.1\Debug\Pacman.pdb (Partial PDB)

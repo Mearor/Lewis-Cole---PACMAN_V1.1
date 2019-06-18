@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{67366adf-bb55-47fe-87c1-8a3b92381615}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{d5573b4f-4ca1-4b76-8c48-aab7f03eff6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actors">
+      <UniqueIdentifier>{6b4c09da-6b05-4261-99df-6ceb2451ae8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Level_Data">
+      <UniqueIdentifier>{4e1917d8-04bf-4610-aae6-48558e108e23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Recourses">
+      <UniqueIdentifier>{06d3d496-e936-4647-9dc4-05412be59072}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Maths">
+      <UniqueIdentifier>{cc455ebb-a4e1-4a5c-b936-3a7be5733ee3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{ff33e08f-2dcd-4c11-91ec-f66344a2c535}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Drawer.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Utility.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Actors.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Level_Data.cpp">
+      <Filter>Level_Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Math_Func.cpp">
+      <Filter>Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_Data.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Drawer.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Actors.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Level_Data.h">
+      <Filter>Level_Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Math_Func.h">
+      <Filter>Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Game_Data.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Level_Data.txt">
+      <Filter>Recourses</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
